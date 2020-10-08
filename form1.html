@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form  align="center">
+        <h1>REGISTERATION FORM:</h1>
+        <hr width="90%">
+        <table  align="center">
+            <tr>
+                <td>FIRST NAME:</td>
+                <td><input type="text" name="fname" placeholder="first name" required></td>
+            </tr>
+            <tr>
+                <td>LAST NAME:</td>
+                <td><input type="text" name="lname" placeholder="last name" required></td>
+            </tr>
+            <tr>
+                <td>DOB:</td>
+                <td><input type="date" name="date" required></td>
+            </tr>
+            <tr>
+                <td>PARENT NAME:</td>
+                <td><input type="text" name="pname" placeholder="parent name" required></td>
+            </tr>
+            <tr>
+                <td>GENDER:</td>
+                <td>
+                    <input type="radio" name="gender" >MALE
+                    <input type="radio" name="gender" >FEMALE
+                </td>
+            </tr>
+            <tr>
+                <td>MARTIAL STATUS:</td>
+                <td>
+                   <input type="text" name="status" required>
+                </td>
+            </tr>
+            <tr>
+                <td>YOUR CNIC:</td>
+                <td><input type="text" name="cnic" placeholder="00000-0000000-0" required></td>
+            </tr>
+            <tr>
+                <td>EMAIL:</td>
+                <td><input type="email" name="email" placeholder="email@address.com" required></td>
+            </tr>
+            <tr>
+                <td>MOBILE:</td>
+                <td><input type="text" name="mobile" placeholder="+920123456789" required></td>
+            </tr>
+            
+            <tr>
+                <td>QUALIFIICATION:</td>
+                <td>
+                    <select>
+                        <option>Matriculation</option>
+                        <option>Intermidiate</option>
+                        <option>Graduation</option>
+                        <option>Master</option>
+                        <option>M phil</option>
+                        <option>Phd</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>ADDRESS:</td>
+                <td>
+                    <textarea name="address" cols="22" rows="2"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>CERTIFICATE:</td>
+                <td>
+                    <input type="file" name="file">
+                </td>
+            </tr>
+            
+        </table>
+        <hr width="90%">
+        <input type="submit" value="SUBMIT">
+    </form>
+</body>
+</html>
